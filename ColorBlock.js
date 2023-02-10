@@ -7,7 +7,7 @@ class ColorBlock {
         return `
         <div>
         <p class="color" data-color=${this.colorHex} style="background-color:${this.colorHex};" </p>
-        <p class="color-name">${this.colorHex}</p>
+        <p class="color-name" data-color=${this.colorHex}> ${this.colorHex}</p>
         </div>`
     }
 }
