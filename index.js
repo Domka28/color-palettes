@@ -30,6 +30,21 @@ render("F55A5A", "monochrome")
 document.addEventListener("click", function (e) {
     if (e.target.dataset.color) {
         navigator.clipboard.writeText(e.target.dataset.color)
+        Toastify({
+            style: {
+                background: "#3D4B60",
+                color: "#D5D4D8"
+
+            },
+            text: "Copied!",
+            duration: 3000,
+            gravity: "bottom",
+            position: "right",
+            offset: {
+                x: 10,
+                y: 100
+            },
+        }).showToast();
     }
 
 })

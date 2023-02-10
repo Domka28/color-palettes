@@ -7,7 +7,6 @@ body {
     width: 100vw;
     font-family: 'Inter';
     font-style: normal;
-    max-height: 90%;
 }
 
 header {
@@ -41,8 +40,13 @@ header {
     line-height: 1rem;
 }
 
+#color-btn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
 #select-place {
-    width: 50vw;
+    width: 35vw;
     height: 7vh;
     border: 1px solid #D1D5DB;
     border-radius: 6px;
@@ -72,6 +76,13 @@ header {
     max-height: 550px;
 }
 
+.color:hover {
+    cursor: grab;
+    box-shadow: rgba(255, 255, 255, 0.664) 0px -50px 36px -28px inset;
+    box-shadow: rgba(51, 49, 49, 0.664) 0px -50px 36px -28px inset;
+
+}
+
 .color-name {
     display: flex;
     justify-content: center;
@@ -80,4 +91,16 @@ header {
     font-weight: 500;
     font-size: 0.75rem;
     line-height: 1.5rem;
+    cursor: grab;
+}
+
+.color-name:hover {
+    color: grey;
+
+}
+
+@media (min-width: 600px) {
+    .color {
+        height: 70vh;
+    }
 }
