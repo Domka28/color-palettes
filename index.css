@@ -7,6 +7,7 @@ body {
     width: 100vw;
     font-family: 'Inter';
     font-style: normal;
+    max-height: 90%;
 }
 
 header {
@@ -69,27 +70,6 @@ header {
     width: 20vw;
     height: 75vh;
     max-height: 550px;
-}
-
-#color1 {
-    background-color: #F55A5A;
-}
-
-#color2 {
-    background: #2B283A;
-}
-
-#color3 {
-    background: #FBF3AB;
-}
-
-#color4 {
-    background: #AAD1B6;
-    ;
-}
-
-#color5 {
-    background: #A626D3;
 }
 
 .color-name {
