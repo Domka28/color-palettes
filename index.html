@@ -3,17 +3,49 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <input type="color" id="color-place" name="color-place" value="#e66465">
-        <select>
-            <option>Option</option>
+        <select id="select-place">
+            <option>Monochrome</option>
+            <option>Monochrome-dark</option>
+            <option>Monochrome-light</option>
+            <option>Analogic</option>
+            <option>Complement</option>
+            <option>Analogic-complement</option>
+            <option>Triad</option>
         </select>
-        <button>Get color scheme</button>
+        <button id="color-btn">Get color scheme</button>
     </header>
-    <h1>index.html</h1>
+    <section id="all-colors">
+        <div>
+            <p class="color" id="color1" </p>
+            <p class="color-name">#F55A5A</p>
+        </div>
+        <div>
+            <p class="color" id="color2" </p>
+            <p class="color-name">#2B283A</p>
+        </div>
+        <div>
+            <p class="color" id="color3" </p>
+            <p class="color-name">#FBF3AB</p>
+        </div>
+        <div>
+            <p class="color" id="color4" </p>
+            <p class="color-name">#AAD1B6</p>
+        </div>
+        <div>
+            <p class="color" id="color5" </p>
+            <p class="color-name">#A626D3</p>
+        </div>
+
+    </section>
     <script src="index.js"></script>
 </body>
 
